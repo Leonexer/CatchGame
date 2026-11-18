@@ -1,0 +1,20 @@
+{
+  "gameLength": 60,
+  "difficulty": 10,
+  "pointsGained": 10,
+  "pointsLost": 5,
+  "messages": {
+    "title": "Aprendiendo a pensar",
+    "mensajeFinal": "¡Juego terminado! Gracias por participar",
+    "mensajeRecord": "¡Nuevo récord alcanzado!"
+  },
+  "color": {
+    "mainColor": "#1e88e5",
+    "secondaryColor": "#ffc107"
+  },
+  "routeLogo": "./assets/img/logo.png",
+  "record": {
+    "Max": 0,
+    "playerName": " "
+  }
+}

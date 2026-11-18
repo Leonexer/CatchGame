@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:krita="http://krita.org/namespaces/svg/krita"
+     xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+     width="70.80"
+     height="49.65"
+     viewBox="0 0 70.80 49.65"
+     preserveAspectRatio="xMidYMid meet">
+
+  <defs/>
+
+  <g transform="translate(-138 -128.25) scale(0.75)">
+
+    <path id="shape0"
+      transform="matrix(-1 0 0 1 267.512551746158 213.322054738553)"
+      fill="#0d0700" fill-rule="evenodd"
+      stroke="#0d0700" stroke-width="2.07990037400038"
+      stroke-linecap="square" stroke-linejoin="bevel"
+      d="M15.675 0C10.45 3.805 6.69295 4.18479 0 11.415C5.01859 13.9464 11.3622 15.3421 17.1257 17.235L21.09 13.515L9.75214 8.355L12.1307 9.255L14.8264 5.955Z"
+      sodipodi:nodetypes="cccccccc"/>
+
+    <path id="shape01"
+      transform="translate(194.309998256912, 212.714998084501)"
+      fill="#0d0700" fill-rule="evenodd"
+      stroke="#0d0700" stroke-width="2.07990037400038"
+      stroke-linecap="square" stroke-linejoin="bevel"
+      d="M15.675 0C10.45 3.805 6.69295 4.18479 0 11.415C5.01859 13.9464 11.3622 15.3421 17.1257 17.235L21.09 13.515L9.75214 8.355L12.1307 9.255L14.8264 5.955Z"
+      sodipodi:nodetypes="cccccccc"/>
+
+    <path id="shape1"
+      transform="translate(209.399998121529, 210.939349751638)"
+      fill="#358757" fill-rule="evenodd"
+      stroke-opacity="0" stroke="#000000" stroke-width="0"
+      d="M0.66 8.45065L0 1.10065C14.4779 -0.560855 28.7412 -0.183918 42.9 1.18611L42.36 8.19425L0.66 8.45065"
+      sodipodi:nodetypes="ccccc"/>
+
+    <ellipse id="shape2"
+      transform="translate(208.020000177343, 220.919998046016)"
+      rx="5.75999892662134" ry="5.46000101560199"
+      cx="5.75999892662134" cy="5.46000101560199"
+      fill="#f1e2c5"/>
+
+    <ellipse id="shape4"
+      transform="matrix(1.25688022940395 0 0 1.25688022940395 212.615369911013 180.325135441734)"
+      rx="13.739991849142" ry="13.92"
+      cx="13.739991849142" cy="13.92"
+      fill="#f1e2c5"/>
+
+    <ellipse id="shape011"
+      transform="matrix(1.25688022940395 0 0 1.25688022940395 223.474815685751 199.484116812326)"
+      rx="1.55999999999999" ry="3"
+      cx="1.55999999999999" cy="3"
+      fill="#ffbf00"/>
+
+    <ellipse id="shape012"
+      transform="matrix(1.25688022940395 0 0 1.25688022940395 232.184995597385 199.514116812257)"
+      rx="1.55999999999999" ry="3"
+      cx="1.55999999999999" cy="3"
+      fill="#ffbf00"/>
+
+    <path id="shape7"
+      transform="matrix(1.25688022940395 0 0 1.25688022940395 211.635001487339 176.241044633082)"
+      fill="#000000"
+      d="M2.07 21.7044L6.27 15.5918L8.265 17.5162L12.195 15.2037L14.52 17.4838L18.015 15.1067C18.945 15.3223 19.665 17.0257 20.595 17.2413L23.58 15.3008L26.94 23.8551L29.205 17.6779L29.43 2.34797L27.45 4.434L25.65 0.795576L22.635 5.50127L20.655 0.213427L18.045 3.56078L15.885 0.345012L12.735 2.47734L10.26 0L7.38 4.09442L4.32 0.704432L2.88 4.19144L0.36 0.257744L0 19.7154L1.53 22.4806L2.07 21.7044"
+      sodipodi:nodetypes="cccccccccccccccccccccccccc"/>
+
+    <rect id="shape9"
+      transform="matrix(0.85043720674784 -0.526076569882122 0.526076569882122 0.85043720674784 211.034644790101 220.197483620819)"
+      fill="#ffff00" width="3.12" height="12.7182598694334"/>
+
+    <rect id="shape10"
+      transform="matrix(0.852507119026244 -0.522715612938409 0.522715612938409 0.852507119026244 210.636403430074 219.645903114948)"
+      fill="#fe65cb"
+      width="3.14699549026193" height="1.68000000000001"
+      rx="0.467574006292271" ry="0.467574006292271"/>
+
+    <rect id="shape11"
+      transform="matrix(0.852848802921392 -0.522157944836191 0.522157944836191 0.852848802921392 211.599396106149 221.322541633817)"
+      fill="#666666"
+      width="3.36000000000001" height="0.47999999999999"/>
+
+    <path id="shape12"
+      transform="matrix(0.998738633188794 0.0502109806335241 -0.0502109806335241 0.998738633188794 217.872234754093 229.308800180592)"
+      fill="#f1e2c5"
+      d="M0 1.60406L2.43582 0L2.65544 2.27699Z"
+      sodipodi:nodetypes="cccc"/>
+
+    <ellipse id="shape21"
+      transform="translate(241.862552745246, 222.623998481973)"
+      rx="5.75999892662134" ry="5.46000101560199"
+      cx="5.75999892662134" cy="5.46000101560199"
+      fill="#f1e2c5"/>
+
+    <path id="shape3"
+      transform="translate(222.059999849692, 191.258447234162)"
+      fill="none" stroke="#ffe600" stroke-width="0.96"
+      stroke-linecap="square" stroke-linejoin="miter"
+      d="M0 3.08155C4.09847 -2.58942 5.78478 0.888413 6.66 3.08155"/>
+
+    <path id="shape02"
+      transform="matrix(-1 0 0 1 238.546799866036 191.384556510557)"
+      fill="none" stroke="#ffe600" stroke-width="0.96"
+      stroke-linecap="square" stroke-linejoin="miter"
+      d="M0 3.08155C4.09847 -2.58942 5.78478 0.888414 6.66 3.08155"/>
+
+    <path id="shape5"
+      transform="translate(209.159998693887, 173.219999185124)"
+      fill="none" stroke="#ffff02" stroke-width="2.07000001735437"
+      d="M2.7 1.8L0 0"/>
+
+    <path id="shape6"
+      transform="translate(217.979998410703, 171.599999237138)"
+      fill="none" stroke="#ffff02" stroke-width="2.07000001735437"
+      d="M1.08 2.52L0 0"/>
+
+    <path id="shape8"
+      transform="translate(226.439998139078, 171.959999225579)"
+      fill="none" stroke="#ffff02" stroke-width="2.07000001735437"
+      d="M0 3.96L0.72 0"/>
+
+    <path id="shape13"
+      transform="translate(233.279997919466, 172.1399992198)"
+      fill="none" stroke="#ffff02" stroke-width="2.07000001735437"
+      d="M0 3.78L2.16 0"/>
+
+    <path id="shape14"
+      transform="translate(241.739997647841, 171.959999225579)"
+      fill="none" stroke="#ffff02" stroke-width="2.07000001735437"
+      d="M0 2.88L1.26 0"/>
+
+    <path id="shape15"
+      transform="translate(248.039997445567, 173.219999185124)"
+      fill="none" stroke="#ffff02" stroke-width="2.07000001735437"
+      d="M0 2.16L1.26 0"/>
+
+    <path id="shape16"
+      transform="translate(251.129997324004, 178.079999029084)"
+      fill="none" stroke="#ffff02" stroke-width="2.07000001735437"
+      d="M0 1.98L2.85 0"/>
+
+    <path id="shape17"
+      transform="translate(207.299998703538, 179.819998976794)"
+      fill="none" stroke="#ffff02" stroke-width="2.07000001735437"
+      d="M2.19 0.48L0 0"/>
+
+  </g>
+</svg>

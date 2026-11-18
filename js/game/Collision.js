@@ -1,0 +1,18 @@
+export default class CollisionHandler {
+    static isColliding(a, b) {
+        const aLeft = a.x - a.width / 2;
+        const aRight = a.x + a.width / 2;
+        const aTop = a.y;
+        const aBottom = a.y + a.height;
+
+        const bLeft = b.x - b.width / 2;
+        const bRight = b.x + b.width / 2;
+        const bTop = b.y;
+        const bBottom = b.y + b.height;
+
+        return aLeft < bRight &&
+            aRight > bLeft &&
+            aTop < bBottom &&
+            aBottom > bTop;
+    }
+}

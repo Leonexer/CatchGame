@@ -1,0 +1,17 @@
+{
+  "name": "catch-game",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "An educational experience or so i hope",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

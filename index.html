@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aprendiendo a Pensar</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <canvas id="gamescreen"></canvas>
+
+        <img id="companyLogo" class="company-logo hidden" alt="Logo de la empresa">
+
+        <button id="musicToggleButton" class="music-icon-button" type="button" aria-label="Activar audio" aria-pressed="true" title="Activar o silenciar audio">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M11 5 6 9H3v6h3l5 4V5Z"></path>
+                <path class="sound-waves" d="M15.5 8.5a5 5 0 0 1 0 7"></path>
+                <path class="sound-mute-mark" d="m16 9 5 6m0-6-5 6"></path>
+            </svg>
+        </button>
+
+        <button id="mainMenuSettingsButton" class="settings-icon-button" type="button" aria-label="Abrir ajustes">
+            <img src="./assets/img/gear.png" alt="Ajustes" />
+        </button>
+
+        <div id="scoreDisplay" class="score-display hidden" aria-live="polite">
+            Puntaje: <span id="scoreValue">0</span>
+        </div>
+
+        <div id="menuOverlay" class="menu-overlay">
+            <main class="screen">
+                <div class="cloud" aria-hidden="true">
+                    <img src="./assets/img/cloud.svg" alt="">
+                </div>
+
+                <section class="content">
+                    <h1 id="menuTitle" class="title">APRENDIENDO<span>A PENSAR</span></h1>
+                    <p class="instruction">Presiona ESPACIO para jugar</p>
+                </section>
+
+                <div class="character" aria-hidden="true">
+                    <img src="./assets/img/head.svg" alt="">
+                </div>
+            </main>
+        </div>
+
+        <div id="pauseMenuOverlay" class="menu-overlay hidden">
+                <div class="menu-panel">
+                    <h1>Pausa</h1>
+                        <button id="resumeButton" type="button">Continuar</button>
+                        <button id="settingsButton" type="button">Ajustes</button>
+                        <button id="quitButton" type="button">Salir</button>
+                </div>
+            </div>
+
+            <div id="settingsMenuOverlay" class="menu-overlay hidden">
+                <div class="menu-panel settings-panel">
+                    <h1>Ajustes</h1>
+
+                    <div class="settings-grid">
+                        <label class="audio-setting">
+                            <span>Música y efectos de sonido</span>
+                            <input id="settingsAudioEnabled" type="checkbox" checked>
+                        </label>
+                        <label><span>Duración de la partida (s)</span>
+                            <input id="settingsGameLength" type="number" min="10" step="1" value="60">
+                        </label>
+                        <label><span>Dificultad (más objetos y velocidad al final)</span>
+                            <span class="range-setting">
+                                <input id="settingsDifficulty" type="range" min="0" max="100" step="1" value="10">
+                                <span id="settingsDifficultyValue" class="range-setting-value" aria-live="polite">10%</span>
+                            </span>
+                        </label>
+                        <label><span>Puntos ganados</span>
+                            <input id="settingsPointsGained" type="number" min="0" step="1" value="10">
+                        </label>
+                        <label><span>Puntos perdidos</span>
+                            <input id="settingsPointsLost" type="number" min="0" step="1" value="5">
+                        </label>
+                        <label><span>Título</span>
+                            <input id="settingsTitle" type="text" value="Aprendiendo a pensar">
+                        </label>
+                        <label><span>Mensaje final</span>
+                            <input id="settingsFinalMessage" type="text" value="¡Juego terminado! Gracias por participar">
+                        </label>
+                        <label><span>Mensaje de nuevo récord</span>
+                            <input id="settingsRecordMessage" type="text" value="¡Nuevo récord alcanzado!">
+                        </label>
+                        <label><span>Color principal</span>
+                            <input id="settingsMainColor" type="color" value="#087ff0">
+                        </label>
+                        <label><span>Color secundario</span>
+                            <input id="settingsSecondaryColor" type="color" value="#FFC107">
+                        </label>
+                        <label><span>Ruta del logo de la empresa</span>
+                            <input id="settingsRouteLogo" type="text" value="/assets/img/logo.png">
+                        </label>
+                        <label><span>Récord máximo</span>
+                            <input id="settingsRecordMax" type="number" min="0" step="1" value="0">
+                        </label>
+                        <label><span>Nombre del jugador</span>
+                            <input id="settingsPlayerName" type="text" value=" ">
+                        </label>
+                    </div>
+
+                    <div class="settings-actions">
+                        <button id="saveSettingsButton" type="button">Guardar</button>
+                        <button id="resetSettingsButton" type="button" class="secondary-button">Restablecer</button>
+                        <button id="backToPauseButton" type="button">Volver</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="gameOverMenuOverlay" class="menu-overlay hidden">
+                <div class="menu-panel">
+                    <h1 id="gameOverTitle">¡Juego terminado! Gracias por participar</h1>
+                    <p id="recordMessage" class="hidden"></p>
+                    <p>Puntaje: <span id="finalScoreValue">0</span></p>
+                    <p><span id="recordLabel">Récord</span>: <span id="recordValue">0</span></p>
+                    <button id="gameOverButton" type="button">Volver al menú principal</button>
+                </div>
+            </div>
+
+        <audio id="backgroundMusic" src="./assets/music/Scheaming%20Weasel.mp3" loop preload="auto"></audio>
+
+        <script type="module" src="./js/Index.js"></script>
+    </body>
+</html>
